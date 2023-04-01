@@ -5,14 +5,7 @@ import ErrorPage from "@/scenes/ErrorPage";
 type Props = {};
 
 const App = (props: Props) => {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>
-    </Router>
-  );
+  return <HomePage />;
 };
 
 export default App;
