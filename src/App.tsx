@@ -7,7 +7,7 @@ const App = (props: Props) => {
   return (
     <Router>
       <Routes>
-        <Route path="/Portfolio" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
       </Routes>
     </Router>
   );
