@@ -55,7 +55,7 @@ const Services = ({ setSelectedPage }: Props) => {
             <p>FrameWork: Django, Flask</p>
             <br />
             <p>Able to use HTML, CSS, JS and React to code Front-End</p>
-            <p>Able to use PHP, Python to code Back-End</p>
+            <p>Able to use PHP, Python and NodeJS to code Back-End</p>
           </ServiceBox>
 
           <ServiceBox title="Web Automation with Python" icon={faRobot}>

@@ -14,7 +14,7 @@ const ErrorPage = (props: Props) => {
       </div>
 
       <div className="mt-10 flex items-center justify-center text-xl font-bold">
-        <Link to="/md">Back to Home</Link>
+        <Link to="/">Back to Home</Link>
       </div>
     </div>
   );

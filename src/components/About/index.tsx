@@ -50,10 +50,7 @@ const About = ({ setSelectedPage }: Props) => {
           </div>
           <div className="my-5 flex basis-4/5 flex-col items-center justify-center">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus reprehenderit et sequi ex magnam officia quis,
-              voluptate neque aut enim? Tempora ad fuga ducimus fugit quibusdam
-              perspiciatis magnam itaque dolorem.
+              I am Diploma Student From APU
             </p>
             <ActionButton setSelectedPage={setSelectedPage}>
               More About Me
