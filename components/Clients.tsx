@@ -1,22 +1,8 @@
 import React from "react";
-import { InfiniteMovingCards } from "./ui/InfiniteMovingCard";
 import { companies } from "@/data";
 
 const Clients = () => {
   return (
-    // <div className="py-20" id="clients">
-    //   <h1 className="heading">
-    //     Kind words from {""}
-    //     <span className="text-purple">satisfied clients</span>
-    //   </h1>
-    //   <div className="flex flex-col items-center">
-    //     <InfiniteMovingCards
-    //       items={testimonials}
-    //       direction="right"
-    //       speed="slow"
-    //     />
-    //   </div>
-    // </div>
     <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">
       {companies.map((company) => (
         <React.Fragment key={company.id}>
