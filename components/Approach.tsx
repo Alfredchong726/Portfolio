@@ -3,6 +3,10 @@ import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "@/components/ui/CanvasRevealEffect";
 
+interface IconInterface {
+    className: string
+}
+
 const Approach = () => {
   return (
     <section className="w-full py-20">
@@ -123,7 +127,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
   );
 };
 
-export const Icon = ({ className, ...rest }: any) => {
+export const Icon = ({className}: IconInterface) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -132,7 +136,6 @@ export const Icon = ({ className, ...rest }: any) => {
       strokeWidth="1.5"
       stroke="currentColor"
       className={className}
-      {...rest}
     >
       <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
     </svg>
